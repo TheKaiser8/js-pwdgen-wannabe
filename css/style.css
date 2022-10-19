@@ -1,0 +1,15 @@
+h1 {
+    text-align: center;
+}
+h2 {
+    display: inline-block;
+}
+.pwd-text {
+    background-color: #000;
+    color: lightgreen;
+    border: .125rem solid lightgreen;
+    border-radius: .3125rem;
+    font-size: 1.5rem;
+    padding: .625rem;
+    font-weight: bold;
+}
