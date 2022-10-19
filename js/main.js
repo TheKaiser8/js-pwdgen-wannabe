@@ -10,5 +10,5 @@ const favoriteColor = prompt("Scrivi il tuo colore preferito");
 const password = `${firstName}${lastName}${favoriteColor}`;
 // 5. Stampa in console la password ottenuta
 console.log(password);
-// 6. Stampa sulla pagina HTML la password generata
-document.querySelector(".pwd-text").innerHTML = password;
+// 6. Stampa sulla pagina HTML la password generata con il numero classe di appartenenza (76)
+document.querySelector(".pwd-text").innerHTML = `${password}${"76"}`;
