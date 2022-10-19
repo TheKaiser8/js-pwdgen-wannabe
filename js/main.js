@@ -11,4 +11,6 @@ const password = `${firstName}${lastName}${favoriteColor}`;
 // 5. Stampa in console la password ottenuta
 console.log(password);
 // 6. Stampa sulla pagina HTML la password generata includendo il numero classe di appartenenza (76)
-document.querySelector(".pwd-text").innerHTML = `${password}${"76"}`;
+// document.querySelector(".pwd-text").innerHTML = `${password}${"76"}`;
+document.querySelector(".pwd-text").innerHTML = `${password}76`;
+// Trattato il numero 76 come testo e non come variabile
