@@ -1,8 +1,20 @@
 h1 {
     text-align: center;
 }
-h2 {
+.inline-block {
     display: inline-block;
+}
+.bg-red {
+    background-color: red;
+}
+.bg-yellow {
+    background-color: yellow;
+}
+.bg-green {
+    background-color: green;
+}
+.text-white {
+    color: #fff;
 }
 .pwd-text {
     background-color: #000;
@@ -12,4 +24,5 @@ h2 {
     font-size: 1.5rem;
     padding: .625rem;
     font-weight: bold;
+    margin: 0 .625rem;
 }
