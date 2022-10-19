@@ -12,5 +12,5 @@ const classNumber = Number ( prompt("Scrivi il numero della tua classe di appart
 const password = `${firstName}${lastName}${favoriteColor}${classNumber}`;
 // 6. Stampa in console la password ottenuta
 console.log(password);
-// 6. Stampa sulla pagina HTML la password generata
+// 7. Stampa sulla pagina HTML la password generata
 document.querySelector(".pwd-text").innerHTML = password;
